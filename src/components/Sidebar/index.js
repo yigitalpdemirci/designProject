@@ -30,11 +30,13 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         
-        <NavLink exact="true" activeclassname="active" className="world-link" to="/world">
-          <i className="png-icon-container">
-            <img src={myIcon} alt="World" className="png-icon" />
-          </i>
-        </NavLink>
+        {process.env.NODE_ENV === 'development' && (
+          <NavLink exact="true" activeclassname="active" className="world-link" to="/world">
+            <i className="png-icon-container">
+              <img src={myIcon} alt="World" className="png-icon" />
+            </i>
+          </NavLink>
+        )}
         
         <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
