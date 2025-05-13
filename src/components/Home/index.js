@@ -1,7 +1,7 @@
 // src/components/Home/index.js
 import './index.scss';
 import { Link } from 'react-router-dom';
-// import HomeImage from '../../assets/images/home-image.png'; // Kullanıcı kendi ekleyecek
+import WorldImage from '../../assets/images/clippedworld.png';
 
 const Home = () => {
   return (
@@ -34,10 +34,10 @@ const Home = () => {
         </div>
         
         <div className="image-section">
-          {/* Resim ekleme alanı */}
-          <div className="placeholder-image">
-            <p>Image will be added here</p>
-          </div>
+
+          <img src={WorldImage} alt="Procedural World" className="world-image" />
+
+
         </div>
         
         <div className="methodology-section">
