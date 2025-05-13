@@ -1,7 +1,6 @@
 import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
 import LogoS from '../../assets/images/hacettepelogo.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome,faUser } from '@fortawesome/free-solid-svg-icons'
 import myIcon from '../../assets/images/world.png';
@@ -27,6 +26,8 @@ const Sidebar=()=>(
                 <FontAwesomeIcon icon ={faUser} color="#4d4d4e"/>
             </NavLink>
         </nav>
+        
+        
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href="https://youtu.be/q93CwmL2j7k" > 
