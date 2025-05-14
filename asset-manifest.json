@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-website/static/css/main.a5f8459c.css",
-    "main.js": "/react-website/static/js/main.ff9ca910.js",
-    "static/js/206.dc91c423.chunk.js": "/react-website/static/js/206.dc91c423.chunk.js",
-    "static/media/clippedworld.png": "/react-website/static/media/clippedworld.d9bf5ff6c7e6ec0e4e18.png",
-    "static/media/ahmet.jpeg": "/react-website/static/media/ahmet.8b6de895431736ed5e76.jpeg",
-    "static/media/mehmet.jpeg": "/react-website/static/media/mehmet.237a4f4e632696926d0b.jpeg",
-    "static/media/zafer.jpeg": "/react-website/static/media/zafer.67868ad119f4618d0677.jpeg",
-    "static/media/img1.JPG": "/react-website/static/media/img1.825d01e06a2c68f3e76d.JPG",
-    "static/media/world.png": "/react-website/static/media/world.e76d2a6b22f69060223f.png",
-    "static/media/hacettepelogo.png": "/react-website/static/media/hacettepelogo.fc8a1c681543b8f149c1.png",
-    "static/media/img2.jpg": "/react-website/static/media/img2.ce9e47a47cb65b94259b.jpg",
-    "static/media/helvetica-neu.ttf": "/react-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/react-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/react-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/react-website/index.html"
+    "main.css": "/designProject/static/css/main.2643c91f.css",
+    "main.js": "/designProject/static/js/main.939be4f3.js",
+    "static/js/206.dc91c423.chunk.js": "/designProject/static/js/206.dc91c423.chunk.js",
+    "static/media/clippedworld.png": "/designProject/static/media/clippedworld.d9bf5ff6c7e6ec0e4e18.png",
+    "static/media/ahmet.jpeg": "/designProject/static/media/ahmet.8b6de895431736ed5e76.jpeg",
+    "static/media/mehmet.jpeg": "/designProject/static/media/mehmet.237a4f4e632696926d0b.jpeg",
+    "static/media/zafer.jpeg": "/designProject/static/media/zafer.67868ad119f4618d0677.jpeg",
+    "static/media/img1.JPG": "/designProject/static/media/img1.825d01e06a2c68f3e76d.JPG",
+    "static/media/world.png": "/designProject/static/media/world.e76d2a6b22f69060223f.png",
+    "static/media/hacettepelogo.png": "/designProject/static/media/hacettepelogo.fc8a1c681543b8f149c1.png",
+    "static/media/img2.jpg": "/designProject/static/media/img2.ce9e47a47cb65b94259b.jpg",
+    "static/media/helvetica-neu.ttf": "/designProject/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/designProject/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/designProject/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/designProject/index.html"
   },
   "entrypoints": [
-    "static/css/main.a5f8459c.css",
-    "static/js/main.ff9ca910.js"
+    "static/css/main.2643c91f.css",
+    "static/js/main.939be4f3.js"
   ]
 }
