@@ -14,7 +14,9 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home/>}/>
           <Route path="about" element={<About />} />
-          <Route path="world" element={<World />} />
+          {process.env.NODE_ENV === 'development' && (
+            <Route path="world" element={<World />} />
+          )}
         </Route>
         
       </Routes>

@@ -57,7 +57,6 @@ const Home = () => {
             <li>Procedural asset generation and placement</li>
             <li>Dynamic adaptation based on narrative flow</li>
           </ul>
-          <Link to="/world" className="flat-button">EXPLORE</Link>
         </div>
       </div>
     </div>

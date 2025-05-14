@@ -129,6 +129,12 @@
         content: "WORLD"
       }
     }
+
+    a.youtube-link {
+      &::after {
+        content: "YOUTUBE"
+      }
+    }
   }
   
   ul {

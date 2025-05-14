@@ -20,38 +20,37 @@ const Sidebar = () => {
       <button className="toggle-btn" onClick={toggleSidebar}>
         <FontAwesomeIcon icon={faBars} color="#ffd700" />
       </button>
-      
       <Link className="logo" to="/">
-        <img src={LogoS} alt="logo" />
-      </Link>
-      
-      <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
-        </NavLink>
+          <img src={LogoS} alt="logo" />
+        </Link>
         
-        {process.env.NODE_ENV === 'development' && (
-          <NavLink exact="true" activeclassname="active" className="world-link" to="/world">
-            <i className="png-icon-container">
-              <img src={myIcon} alt="World" className="png-icon" />
-            </i>
+        <nav>
+          <NavLink exact="true" activeclassname="active" to="/">
+            <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
           </NavLink>
-        )}
-        
-        <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-        </NavLink>
-      </nav>
-      
-      <ul>
-        <li>
-          <a target="_blank" rel="noreferrer" href="https://youtu.be/q93CwmL2j7k">
+          
+          <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          </NavLink>
+
+          <a target="_blank" rel="noreferrer" href="https://youtu.be/q93CwmL2j7k" className="youtube-link">
             <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
           </a>
-        </li>
-      </ul>
-    </div>
-  );
-};
+          
+          {process.env.NODE_ENV === 'development' && (
+            <NavLink exact="true" activeclassname="active" className="world-link" to="/world">
+              <i className="png-icon-container">
+                <img src={myIcon} alt="World" className="png-icon" />
+              </i>
+            </NavLink>
+          )}
+        </nav>
+        
+        <ul>
+          {/* YouTube link moved to nav */}
+        </ul>
+      </div>
+    );
+  };
 
 export default Sidebar;

@@ -68,10 +68,26 @@
       
       ul {
         margin-bottom: 20px;
-        padding-left: 20px;
+        padding-left: 0; // Remove default padding, we'll add to li
+        list-style: none; // Remove default bullets
         
         li {
-          margin-bottom: 8px;
+          margin-bottom: 12px; // Increased margin
+          position: relative;
+          padding-left: 25px; // Space for custom bullet
+          font-size: 17px; // Slightly larger font for list items
+          line-height: 1.7;
+
+          &::before {
+            content: '›'; // Custom bullet character
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #08fdd8; // Theme color for the bullet
+            font-weight: bold;
+            font-size: 20px; // Adjust size of the bullet
+            line-height: inherit; // Align with text
+          }
         }
       }
       

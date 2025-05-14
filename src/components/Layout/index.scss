@@ -1,11 +1,12 @@
 // src/components/Layout/index.scss
 .page {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  padding-left: 40px;
+  min-height: 100vh; // Allow page to grow beyond viewport height
+  position: relative;   // Changed from absolute, might need further adjustment
+  overflow-y: auto;   // Allow this container to scroll
+  padding-left: 40px; // Keep existing padding
 
-  margin-left: 7px; // Sidebar'ın görünür kısmı kadar boşluk
+  margin-left: 7px; // Sidebar'ın görünür kısmı kadar boşluk (for desktop)
   transition: all 0.3s ease;
   
 }
