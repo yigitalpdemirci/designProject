@@ -1,7 +1,7 @@
 {
   "name": "react-website",
   "version": "0.1.0",
-  "homepage": "https://yigitalpdemirci.github.io/react-website",
+  "homepage": "https://yigitalpdemirci.github.io/designProject",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
