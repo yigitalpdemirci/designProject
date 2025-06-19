@@ -5,6 +5,8 @@ import StarryBackground from './components/StarryBackground';
 import Home from './components/Home';
 import About from './components/About';
 import World from './components/World';
+import Poster from './components/Poster';
+import Slide from './components/Slide';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           {process.env.NODE_ENV === 'development' && (
             <Route path="world" element={<World />} />
           )}
+          <Route path="poster" element={<Poster />} />
+          <Route path="slide" element={<Slide />} />
         </Route>
         
       </Routes>

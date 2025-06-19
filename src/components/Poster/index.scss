@@ -1,0 +1,23 @@
+.poster-page {
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffd700; // Example color, adjust as needed
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #fff; // Example color, adjust as needed
+  }
+
+  // PDF görüntüleyici için stiller eklenebilir
+  .pdf-viewer-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 80vh; // Adjust height as needed
+    border: 1px solid #ccc;
+  }
+}

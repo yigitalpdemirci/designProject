@@ -25,11 +25,6 @@ const Home = () => {
             computer graphics, and artificial intelligence to develop tools that 
             allow for intuitive world creation through natural language inputs.
           </p>
-          <p>
-            Our team consists of experts in NLP, procedural generation, and 
-            interactive design who are passionate about creating new ways for 
-            humans to interact with and create digital environments.
-          </p>
           <Link to="/about" className="flat-button">MEET THE TEAM</Link>
         </div>
         
@@ -53,9 +48,9 @@ const Home = () => {
           </p>
           <ul>
             <li>Text parsing and semantic analysis</li>
-            <li>Context-aware environment mapping</li>
-            <li>Procedural asset generation and placement</li>
-            <li>Dynamic adaptation based on narrative flow</li>
+            <li>Finding and generating suitable noise vector</li>
+            <li>Procedural world generation from noise vector</li>
+            <li>Rendering world using unity</li>
           </ul>
         </div>
       </div>

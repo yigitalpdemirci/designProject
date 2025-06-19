@@ -130,6 +130,12 @@
       }
     }
 
+    a.poster-link {
+      &::after {
+        content: "POSTER"
+      }
+    }
+
     a.youtube-link {
       &::after {
         content: "YOUTUBE"

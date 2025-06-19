@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/hacettepelogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faBars, faFilePdf, faDesktop } from '@fortawesome/free-solid-svg-icons'; // Added faDesktop
 import myIcon from '../../assets/images/world.png';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
@@ -31,6 +31,14 @@ const Sidebar = () => {
           
           <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          </NavLink>
+
+          <NavLink exact="true" activeclassname="active" className="poster-link" to="/poster">
+            <FontAwesomeIcon icon={faFilePdf} color="#4d4d4e" />
+          </NavLink>
+
+          <NavLink exact="true" activeclassname="active" className="slide-link" to="/slide">
+            <FontAwesomeIcon icon={faDesktop} color="#4d4d4e" />
           </NavLink>
 
           <a target="_blank" rel="noreferrer" href="https://youtu.be/q93CwmL2j7k" className="youtube-link">
