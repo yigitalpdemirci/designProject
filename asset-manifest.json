@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/designProject/static/css/main.f898011e.css",
-    "main.js": "/designProject/static/js/main.0d38bfc2.js",
+    "main.css": "/designProject/static/css/main.e8e5b73d.css",
+    "main.js": "/designProject/static/js/main.3164b4b5.js",
     "static/js/206.dc91c423.chunk.js": "/designProject/static/js/206.dc91c423.chunk.js",
     "static/media/clippedworld.png": "/designProject/static/media/clippedworld.d9bf5ff6c7e6ec0e4e18.png",
     "static/media/ahmet.jpeg": "/designProject/static/media/ahmet.8b6de895431736ed5e76.jpeg",
@@ -17,7 +17,7 @@
     "index.html": "/designProject/index.html"
   },
   "entrypoints": [
-    "static/css/main.f898011e.css",
-    "static/js/main.0d38bfc2.js"
+    "static/css/main.e8e5b73d.css",
+    "static/js/main.3164b4b5.js"
   ]
 }
